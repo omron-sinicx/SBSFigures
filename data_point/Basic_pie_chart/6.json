@@ -1,0 +1,14 @@
+{
+    "title": "Online vs Offline Shopping Preferences",
+    "models": [
+        {
+            "name": "Online Shopping",
+            "value": "61"
+        },
+        {
+            "name": "Offline Shopping",
+            "value": "39"
+        }
+    ],
+    "type": "pie"
+}

@@ -1,0 +1,68 @@
+{
+    "title": "Regional Energy Consumption vs. CO2 Emissions by Day of the Week",
+    "x_axis": "Day of the Week",
+    "y_axis": "CO2 Emissions (Million Tonnes)",
+    "models": [
+        {
+            "name": "North America",
+            "y": [
+                "550", 
+                "600", 
+                "650", 
+                "700"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday"
+            ]
+        },
+        {
+            "name": "Europe",
+            "y": [
+                "420", 
+                "440", 
+                "460", 
+                "480"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday"
+            ]
+        },
+        {
+            "name": "Asia",
+            "y": [
+                "630", 
+                "660", 
+                "690", 
+                "720"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday"
+            ]
+        },
+        {
+            "name": "South America",
+            "y": [
+                "320", 
+                "340", 
+                "360", 
+                "380"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday"
+            ]
+        }
+    ],
+    "type": "dot_line"
+}

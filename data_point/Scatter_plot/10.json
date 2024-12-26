@@ -1,0 +1,53 @@
+{
+    "title": "Sales and Profit Margin by Company Division",
+    "x_axis": "Sales in $ millions",
+    "y_axis": "Profit Margin %",
+    "models": [
+        {
+            "name": "Consumer Products",
+            "y": [
+                "15", 
+                "18", 
+                "17", 
+                "19"
+            ],
+            "x": [
+                "500", 
+                "550", 
+                "600", 
+                "650"
+            ]
+        },
+        {
+            "name": "Industrial Products",
+            "y": [
+                "12", 
+                "14", 
+                "13", 
+                "15"
+            ],
+            "x": [
+                "500", 
+                "550", 
+                "600", 
+                "650"
+            ]
+        },
+        {
+            "name": "Services",
+            "y": [
+                "20", 
+                "22", 
+                "21", 
+                "23"
+            ],
+            "x": [
+                "500", 
+                "550", 
+                "600", 
+                "650"
+            ]
+        }
+    ],
+    "type": "dot_line"
+}

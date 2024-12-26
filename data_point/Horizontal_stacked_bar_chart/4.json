@@ -1,0 +1,47 @@
+{
+    "title": "Analysis of Beauty Spending by Age Group in Women",
+    "x_axis": "Beauty Services",
+    "y_axis": "Expenses ($)",
+    "models": [
+        {
+            "name": "20s",
+            "y": [
+                "100", 
+                "98",
+                "50"
+            ],
+            "x": [
+                "Hair Salon",
+                "Nail Salon", 
+                "Esthetic Treatments"
+            ]
+        },
+        {
+            "name": "30s",
+            "y": [
+                "120", 
+                "88", 
+                "60"
+            ],
+            "x": [
+                "Hair Salon",
+                "Nail Salon", 
+                "Esthetic Treatments"
+            ]
+        },
+        {
+            "name": "40s",
+            "y": [
+                "130", 
+                "83", 
+                "78"
+            ],
+            "x": [
+                "Hair Salon",
+                "Nail Salon", 
+                "Esthetic Treatments"
+            ]
+        }
+    ],
+    "type": "h_stacked_bar"
+}

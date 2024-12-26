@@ -1,0 +1,30 @@
+{
+    "title": "Support Rates for the Japanese Government by Age Group",
+    "models": [
+        {
+            "name": "18-24",
+            "value": "17"
+        },
+        {
+            "name": "25-34",
+            "value": "19"
+        },
+        {
+            "name": "35-44",
+            "value": "18"
+        },
+        {
+            "name": "45-54",
+            "value": "15"
+        },
+        {
+            "name": "55-64",
+            "value": "16"
+        },
+        {
+            "name": "65+",
+            "value": "15"
+        }
+    ],
+    "type": "pie"
+}

@@ -1,0 +1,38 @@
+{
+    "title": "Investment in Environmental Protection by Global Companies",
+    "x_axis": "Companies",
+    "y_axis": "Investment Amount (million $)",
+    "models": [
+        {
+            "name": "Green Technologies",
+            "y": [
+                "300", 
+                "250",
+                "320", 
+                "280"
+            ],
+            "x": [
+                "Apple", 
+                "Samsung", 
+                "Toyota", 
+                "Volkswagen"
+            ]
+        },
+        {
+            "name": "Sustainability Projects",
+            "y": [
+                "200", 
+                "180", 
+                "210", 
+                "230"
+            ],
+            "x": [
+                "Apple", 
+                "Samsung", 
+                "Toyota", 
+                "Volkswagen"
+            ]
+        }
+    ],
+    "type": "h_grouped_bar"
+}

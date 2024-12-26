@@ -1,0 +1,71 @@
+{
+    "title": "Daily Sales by Product at a Cafe in Belgium",
+    "x_axis": "Days of the Week",
+    "y_axis": "Sales in $",
+    "models": [
+        {
+            "name": "Coffee",
+            "y": [
+                "500", 
+                "600", 
+                "550", 
+                "700", 
+                "800", 
+                "650", 
+                "600"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday", 
+                "Friday", 
+                "Saturday", 
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Pastries",
+            "y": [
+                "300", 
+                "350", 
+                "330", 
+                "360", 
+                "400", 
+                "380", 
+                "370"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday", 
+                "Friday", 
+                "Saturday", 
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Sandwiches",
+            "y": [
+                "250", 
+                "270", 
+                "260", 
+                "280", 
+                "300", 
+                "290", 
+                "280"
+            ],
+            "x": [
+                "Monday", 
+                "Tuesday", 
+                "Wednesday", 
+                "Thursday", 
+                "Friday", 
+                "Saturday", 
+                "Sunday"
+            ]
+        }
+    ],
+    "type": "line"
+}

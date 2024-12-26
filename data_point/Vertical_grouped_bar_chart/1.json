@@ -1,0 +1,34 @@
+{
+    "title": "Sales Performance of Salespersons",
+    "x_axis": "Salespersons",
+    "y_axis": "Units Sold",
+    "models": [
+        {
+            "name": "North Region",
+            "y": [
+                "150",
+                "200",
+                "180"
+            ],
+            "x": [
+                "John", 
+                "Emma", 
+                "Lucas"
+            ]
+        },
+        {
+            "name": "South Region",
+            "y": [
+                "180",
+                "220",
+                "160"
+            ],
+            "x": [
+                "John", 
+                "Emma", 
+                "Lucas"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

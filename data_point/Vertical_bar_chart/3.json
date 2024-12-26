@@ -1,0 +1,28 @@
+{
+    "title": "Monthly Rainfall in Tokyo (2022, mm)",
+    "x_axis": "Months",
+    "y_axis": "Rainfall in mm",
+    "models": [
+        {
+            "x": [
+                "January", 
+                "February",
+                "March", 
+                "April", 
+                "May", 
+                "June", 
+                "July"
+            ],
+            "y": [
+                "52",   
+                "56",   
+                "117",  
+                "125",  
+                "138",  
+                "167",  
+                "153"   
+            ]
+        }
+    ],
+    "type": "v_bar"
+}

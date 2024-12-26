@@ -1,0 +1,25 @@
+{
+    "title": "Annual Rainfall in Major Cities (mm)",
+    "x_axis": "Cities",
+    "y_axis": "Rainfall (mm)",
+    "models": [
+        {
+            "name": "Rainfall",
+            "y": [
+                "800", 
+                "1200", 
+                "600", 
+                "900", 
+                "700"
+            ],
+            "x": [
+                "Tokyo", 
+                "Mumbai", 
+                "Cairo", 
+                "London", 
+                "New York"
+            ]
+        }
+    ],
+    "type": "h_bar"
+}

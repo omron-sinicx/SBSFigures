@@ -1,0 +1,22 @@
+{
+    "title": "Renewable Energy Usage by Region",
+    "models": [
+        {
+            "name": "North America",
+            "value": "30%"
+        },
+        {
+            "name": "Europe",
+            "value": "25%"
+        },
+        {
+            "name": "Asia",
+            "value": "20%"
+        },
+        {
+            "name": "South America",
+            "value": "25%"
+        }
+    ],
+    "type": "pie"
+}

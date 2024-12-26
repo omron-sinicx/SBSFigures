@@ -1,0 +1,42 @@
+{
+    "title": "Work-Life Balance Satisfaction Across Departments",
+    "x_axis": "Departments",
+    "y_axis": "Satisfaction Level (%)",
+    "models": [
+        {
+            "name": "First Half of the Year",
+            "y": [
+                "70", 
+                "65", 
+                "75", 
+                "80", 
+                "60"
+            ],
+            "x": [
+                "Engineering", 
+                "Marketing", 
+                "Sales",
+                "HR", 
+                "Finance"
+            ]
+        },
+        {
+            "name": "Second Half of the Year",
+            "y": [
+                "75", 
+                "70", 
+                "80", 
+                "85", 
+                "65"
+            ],
+            "x": [
+                "Engineering", 
+                "Marketing", 
+                "Sales", 
+                "HR", 
+                "Finance"
+            ]
+        }
+    ],
+    "type": "diverging_bar_chart"
+}

@@ -1,0 +1,41 @@
+{
+    "title": "Monthly Fitness Club Attendance",
+    "x_axis": "Months",
+    "y_axis": "Number of Attendees",
+    "models": [
+        {
+            "name": "Yoga",
+            "y": [
+                "150", 
+                "135"
+            ],
+            "x": [
+                "March", 
+                "April"
+            ]
+        },
+        {
+            "name": "Aerobics",
+            "y": [
+                "100", 
+                "110"
+            ],
+            "x": [
+                "March", 
+                "April"
+            ]
+        },
+        {
+            "name": "Zumba",
+            "y": [
+                "80", 
+                "85"
+            ],
+            "x": [
+                "March", 
+                "April"
+            ]
+        }
+    ],
+    "type": "h_gouped_bar"
+}

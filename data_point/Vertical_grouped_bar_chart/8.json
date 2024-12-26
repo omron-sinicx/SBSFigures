@@ -1,0 +1,47 @@
+{
+    "title": "Yearly Energy Consumption in Different Sectors",
+    "x_axis": "Sectors",
+    "y_axis": "Energy Consumption (GWh)",
+    "models": [
+        {
+            "name": "2019",
+            "y": [
+                "1000", 
+                "1200", 
+                "800"
+            ],
+            "x": [
+                "Residential", 
+                "Commercial", 
+                "Industrial"
+            ]
+        },
+        {
+            "name": "2020",
+            "y": [
+                "1100", 
+                "1300", 
+                "850"
+            ],
+            "x": [
+                "Residential", 
+                "Commercial", 
+                "Industrial"
+            ]
+        },
+        {
+            "name": "2021",
+            "y": [
+                "1050", 
+                "1250", 
+                "900"
+            ],
+            "x": [
+                "Residential", 
+                "Commercial", 
+                "Industrial"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

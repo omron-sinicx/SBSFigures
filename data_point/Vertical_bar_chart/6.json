@@ -1,0 +1,30 @@
+{
+    "title": "Daily Hours of Sunlight in Spain",
+    "x_axis": "Days",
+    "y_axis": "Hours of Sunlight",
+    "models": [
+        {
+            "x": [
+                "Day 1", 
+                "Day 2", 
+                "Day 3", 
+                "Day 4", 
+                "Day 5", 
+                "Day 6", 
+                "Day 7", 
+                "Day 8"
+            ],
+            "y": [
+                "8", 
+                "7", 
+                "9", 
+                "6", 
+                "8", 
+                "10", 
+                "7", 
+                "7"
+            ]
+        }
+    ],
+    "type": "v_bar"
+}

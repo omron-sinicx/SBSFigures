@@ -1,0 +1,84 @@
+{
+    "title": "Popular Menu Items at Family Restaurants Across the US",
+    "x_axis": "Menu Categories",
+    "y_axis": "Sales (Units Sold)",
+    "models": [
+        {
+            "name": "Northeast Region",
+            "y": [
+                "200", 
+                "150", 
+                "180",
+                "80",
+                "60",
+                "40"
+            ],
+            "x": [
+                "Appetizers", 
+                "Main Courses", 
+                "Noodles and Rice",
+                "Vegetarian Dishes",
+                "Seafood Dishes",
+                "Soups"
+            ]
+        },
+        {
+            "name": "Midwest Region",
+            "y": [
+                "100", 
+                "120", 
+                "150",
+                "70",
+                "50",
+                "30"
+            ],
+            "x": [
+                "Appetizers", 
+                "Main Courses", 
+                "Noodles and Rice",
+                "Vegetarian Dishes",
+                "Seafood Dishes",
+                "Soups"
+            ]
+        },
+        {
+            "name": "South Region",
+            "y": [
+                "50", 
+                "60", 
+                "40",
+                "90",
+                "70",
+                "20"
+            ],
+            "x": [
+                "Appetizers", 
+                "Main Courses", 
+                "Noodles and Rice",
+                "Vegetarian Dishes",
+                "Seafood Dishes",
+                "Soups"
+            ]
+        },
+        {
+            "name": "West Region",
+            "y": [
+                "80", 
+                "70", 
+                "90",
+                "60",
+                "50",
+                "30"
+            ],
+            "x": [
+                "Appetizers", 
+                "Main Courses", 
+                "Noodles and Rice",
+                "Vegetarian Dishes",
+                "Seafood Dishes",
+                "Soups"
+            ]
+        }
+    ],
+    "type": "h_stacked_bar"
+}

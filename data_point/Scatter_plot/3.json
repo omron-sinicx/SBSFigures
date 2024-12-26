@@ -1,0 +1,42 @@
+{
+    "title": "Urban and Rural Recycling Efforts and Environmental Consciousness",
+    "x_axis": "Weekly Recycling Hours",
+    "y_axis": "Environmental Awareness Score",
+    "models": [
+        {
+            "name": "Urban Residents",
+            "y": [
+                "60", 
+                "65", 
+                "70", 
+                "75", 
+                "80"
+            ],
+            "x": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5"
+            ]
+        },
+        {
+            "name": "Rural Residents",
+            "y": [
+                "55", 
+                "60", 
+                "65", 
+                "70", 
+                "75"
+            ],
+            "x": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5"
+            ]
+        }
+    ],
+    "type": "dot_line"
+}

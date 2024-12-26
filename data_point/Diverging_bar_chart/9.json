@@ -1,0 +1,38 @@
+{
+    "title": "Project Delivery Efficiency: IT vs Operations",
+    "x_axis": "Project Phases",
+    "y_axis": "Efficiency",
+    "models": [
+        {
+            "name": "IT Department",
+            "y": [
+                "70%", 
+                "80%", 
+                "75%", 
+                "85%"
+            ],
+            "x": [
+                "Planning", 
+                "Execution", 
+                "Delivery", 
+                "Post-Delivery"
+            ]
+        },
+        {
+            "name": "Operations Department",
+            "y": [
+                "75%", 
+                "85%", 
+                "70%", 
+                "80%"
+            ],
+            "x": [
+                "Planning", 
+                "Execution", 
+                "Delivery", 
+                "Post-Delivery"
+            ]
+        }
+    ],
+    "type": "diverging_bar_chart"
+}
