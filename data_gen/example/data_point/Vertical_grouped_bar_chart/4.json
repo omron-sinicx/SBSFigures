@@ -1,0 +1,38 @@
+{
+    "title": "Monthly Wine Production Output in Eastern and Western France",
+    "x_axis": "Months",
+    "y_axis": "Units Produced (thousands)",
+    "models": [
+        {
+            "name": "Eastern France Winery",
+            "y": [
+                "1000", 
+                "1200",
+                "1100", 
+                "900"
+            ],
+            "x": [
+                "January", 
+                "February", 
+                "March", 
+                "April"
+            ]
+        },
+        {
+            "name": "Western France Winery",
+            "y": [
+                "900", 
+                "1100", 
+                "1000", 
+                "1000"
+            ],
+            "x": [
+                "January", 
+                "February", 
+                "March", 
+                "April"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

@@ -1,0 +1,73 @@
+{
+    "title": "Energy Consumption by Energy Source",
+    "x_axis": "Countries",
+    "y_axis": "Energy Consumption (in TWh)",
+    "models": [
+        {
+            "name": "Coal",
+            "y": [
+                "500", 
+                "400", 
+                "600"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China"
+            ]
+        },
+        {
+            "name": "Natural Gas",
+            "y": [
+                "300", 
+                "350", 
+                "250"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China"
+            ]
+        },
+        {
+            "name": "Renewables",
+            "y": [
+                "200", 
+                "300", 
+                "350"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China"
+            ]
+        },
+        {
+            "name": "Nuclear",
+            "y": [
+                "150", 
+                "250", 
+                "200"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China"
+            ]
+        },
+        {
+            "name": "Oil",
+            "y": [
+                "350", 
+                "300",
+                "400"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China"
+            ]
+        }
+    ],
+    "type": "v_stacked_bar"
+}

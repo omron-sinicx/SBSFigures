@@ -1,0 +1,24 @@
+{
+    "title": "How Do Young Adults in China Use Their Smartphones Each Month? Activity-Based Insights",
+    "x_axis": "Activities",
+    "y_axis": "Time Spent (%)",
+    "models": [
+        {
+            "x": [
+                "Social Media", 
+                "Gaming", 
+                "Streaming", 
+                "Browsing", 
+                "Others"
+            ],
+            "y": [
+                "30%", 
+                "25%", 
+                "20%", 
+                "15%", 
+                "10%"
+            ]
+        }
+    ],
+    "type": "v_bar"
+}

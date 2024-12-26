@@ -1,0 +1,72 @@
+# OpenAI API key
+api_key: ""
+
+# Data topics
+data_topic:
+  model: 'gpt-3.5-turbo-0125'
+  temperature: 0.8
+  output_base_path: "../output/data_topic"
+  num_examples: 5
+  datalist:
+    - Diverging bar chart
+    - Vertical bar chart
+    - Horizontal bar chart
+    - Vertical stacked bar chart
+    - Horizontal stacked bar chart
+    - Vertical grouped bar chart
+    - Horizontal grouped bar chart
+    - Basic pie chart
+    - Scatter plot
+    - Line plot
+  num_iterations: 2  # The total number of data points will be calculated as num_examples multiplied by num_iterations.
+
+# JSON creation
+json_make:
+  model: 'gpt-3.5-turbo-0125'
+  temperature: 0.8
+  output_base_path: "../output/data_point"
+  example_json_directory: "../example/data_point"
+  data_file_path: "../output/data_topic"
+
+  datalist:
+    - Diverging bar chart
+    - Vertical bar chart
+    - Horizontal bar chart
+    - Vertical stacked bar chart
+    - Horizontal stacked bar chart
+    - Vertical grouped bar chart
+    - Horizontal grouped bar chart
+    - Basic pie chart
+    - Scatter plot
+    - Line plot
+
+add_color: 
+  json_directory: ../output/data_point
+  colors_file: ./color.csv
+  output_directory: ../output/json_add_color
+
+create_chart: 
+  json_directly: ../output/json_add_color
+  json_output_directly: ../output/json_final
+  figure_output_directly: ../output/png
+  font_txt : ./font.txt
+  python_scripts_dir : ../code_format
+
+qa:
+  model: 'gpt-3.5-turbo-0125'
+  temperature: 0.8
+  base_directory: ../output/json_final
+  output_directory: ../output/qa
+  example_directory: ../example/qa
+  datalist:
+    - Diverging bar chart
+    - Vertical bar chart
+    - Horizontal bar chart
+    - Vertical stacked bar chart
+    - Horizontal stacked bar chart
+    - Vertical grouped bar chart
+    - Horizontal grouped bar chart
+    - Basic pie chart
+    - Scatter plot
+    - Line plot
+    

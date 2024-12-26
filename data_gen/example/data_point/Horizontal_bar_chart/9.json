@@ -1,0 +1,25 @@
+{
+    "title": "Population Growth by Continent (%)",
+    "x_axis": "Continents",
+    "y_axis": "Growth Rate",
+    "models": [
+        {
+            "name": "Growth Rate",
+            "y": [
+                "1.2%", 
+                "1.0%", 
+                "0.8%", 
+                "0.6%", 
+                "0.4%"
+            ],
+            "x": [
+                "Asia", 
+                "Africa", 
+                "Europe", 
+                "North America", 
+                "South America"
+            ]
+        }
+    ],
+    "type": "h_bar"
+}

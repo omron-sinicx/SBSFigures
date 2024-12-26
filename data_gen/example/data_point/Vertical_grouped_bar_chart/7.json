@@ -1,0 +1,34 @@
+{
+    "title": "Daily Visitor Count at Theme Parks in China",
+    "x_axis": "Days",
+    "y_axis": "Visitors",
+    "models": [
+        {
+            "name": "Adventure Land",
+            "y": [
+                "5000", 
+                "6000", 
+                "5500"
+            ],
+            "x": [
+                "Friday", 
+                "Saturday", 
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Wonder World",
+            "y": [
+                "4500", 
+                "5000", 
+                "4800"
+            ],
+            "x": [
+                "Friday", 
+                "Saturday", 
+                "Sunday"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

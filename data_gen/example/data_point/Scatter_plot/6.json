@@ -1,0 +1,59 @@
+{
+    "title": "Yearly Changes in Office Environment and Its Impact on Employee Well-being",
+    "x_axis": "Years",
+    "y_axis": "Employee Happiness Score",
+    "models": [
+        {
+            "name": "Main Office",
+            "y": [
+                "70", 
+                "72", 
+                "74", 
+                "76", 
+                "78"
+            ],
+            "x": [
+                "2015", 
+                "2016", 
+                "2017", 
+                "2018", 
+                "2019"
+            ]
+        },
+        {
+            "name": "Branch Office",
+            "y": [
+                "68", 
+                "70", 
+                "72", 
+                "74", 
+                "76"
+            ],
+            "x": [
+                "2015", 
+                "2016", 
+                "2017", 
+                "2018", 
+                "2019"
+            ]
+        },
+        {
+            "name": "Remote Team",
+            "y": [
+                "65", 
+                "67", 
+                "69", 
+                "71", 
+                "73"
+            ],
+            "x": [
+                "2015", 
+                "2016", 
+                "2017", 
+                "2018", 
+                "2019"
+            ]
+        }
+    ],
+    "type": "dot_line"
+}

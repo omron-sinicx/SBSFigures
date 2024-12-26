@@ -1,0 +1,60 @@
+{
+    "title": "Annual Energy Consumption by Sector",
+    "x_axis": "Energy Sectors",
+    "y_axis": "Energy Consumption (in TWh)",
+    "models": [
+        {
+            "name": "Residential",
+            "y": [
+                "200", 
+                "220", 
+                "210"
+            ],
+            "x": [
+                "Electricity",
+                "Natural Gas", 
+                "Renewables"
+            ]
+        },
+        {
+            "name": "Commercial",
+            "y": [
+                "180", 
+                "190", 
+                "200"
+            ],
+            "x": [
+                "Electricity",
+                "Natural Gas", 
+                "Renewables"
+            ]
+        },
+        {
+            "name": "Industrial",
+            "y": [
+                "300", 
+                "310", 
+                "320"
+            ],
+            "x": [
+                "Electricity",
+                "Natural Gas", 
+                "Renewables"
+            ]
+        },
+        {
+            "name": "Transportation",
+            "y": [
+                "250", 
+                "260", 
+                "270"
+            ],
+            "x": [
+                "Electricity",
+                "Natural Gas", 
+                "Renewables"
+            ]
+        }
+    ],
+    "type": "v_stacked_bar"
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Do You Think the Economy Will Improve in the Future? - Perspectives from Major Cities",
+    "x_axis": "Major Cities",
+    "y_axis": "Percentage of Positive vs Negative Responses",
+    "models": [
+        {
+            "name": "Positive Responses",
+            "y": [
+                "60%", 
+                "70%", 
+                "75%"
+            ],
+            "x": [
+                "New York", 
+                "London", 
+                "Paris"
+            ]
+        },
+        {
+            "name": "Negative Responses",
+            "y": [
+                "40%", 
+                "30%", 
+                "25%"
+            ],
+            "x": [
+                "New York", 
+                "London", 
+                "Paris"
+            ]
+        }
+    ],
+    "type": "diverging_bar_chart"
+}

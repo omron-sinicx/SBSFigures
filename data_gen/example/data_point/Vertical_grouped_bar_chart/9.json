@@ -1,0 +1,60 @@
+{
+    "title": "Annual Training Completion Rates by Department",
+    "x_axis": "Departments",
+    "y_axis": "Completion Rate (%)",
+    "models": [
+        {
+            "name": "2019",
+            "y": [
+                "75%", 
+                "80%", 
+                "85%"
+            ],
+            "x": [
+                "HR", 
+                "IT", 
+                "Sales"
+            ]
+        },
+        {
+            "name": "2020",
+            "y": [
+                "80%", 
+                "86%", 
+                "90%"
+            ],
+            "x": [
+                "HR", 
+                "IT", 
+                "Sales"
+            ]
+        },
+        {
+            "name": "2021",
+            "y": [
+                "85%", 
+                "91%", 
+                "95%"
+            ],
+            "x": [
+                "HR", 
+                "IT", 
+                "Sales"
+            ]
+        },        
+        {
+            "name": "2022",
+            "y": [
+                "90%", 
+                "93%", 
+                "70%"
+            ],
+            "x": [
+                "HR", 
+                "IT", 
+                "Sales"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

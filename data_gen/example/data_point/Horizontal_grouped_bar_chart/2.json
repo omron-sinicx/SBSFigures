@@ -1,0 +1,92 @@
+{
+    "title": "Weekly Sales of Beverages",
+    "x_axis": "Days of the Week",
+    "y_axis": "Sales in $1000s",
+    "models": [
+        {
+            "name": "Tea",
+            "y": [
+                "150",
+                "130",
+                "140",
+                "160",
+                "170",
+                "180",
+                "190"
+            ],
+            "x": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Coffee",
+            "y": [
+                "200",
+                "180",
+                "190",
+                "210",
+                "220",
+                "230",
+                "240"
+            ],
+            "x": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Soft Drinks",
+            "y": [
+                "180",
+                "160",
+                "150",
+                "170",
+                "180",
+                "190",
+                "200"
+            ],
+            "x": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "name": "Water",
+            "y": [
+                "130",
+                "120",
+                "110",
+                "140",
+                "150",
+                "160",
+                "170"
+            ],
+            "x": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        }
+    ],
+    "type": "h_grouped_bar"
+}

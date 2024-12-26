@@ -1,0 +1,42 @@
+{
+    "title": "Tourism and Local Business Revenue in Major Cities",
+    "x_axis": "Years",
+    "y_axis": "Revenue in $ Billions & Number of Tourists in Millions",
+    "models": [
+        {
+            "name": "Tourism Revenue",
+            "y": [
+                "5", 
+                "6", 
+                "9", 
+                "8", 
+                "9"
+            ],
+            "x": [
+                "New York", 
+                "London", 
+                "Tokyo", 
+                "Paris", 
+                "Sydney"
+            ]
+        },
+        {
+            "name": "Number of Tourists",
+            "y": [
+                "10", 
+                "12", 
+                "15", 
+                "20", 
+                "18"
+            ],
+            "x": [
+                "New York", 
+                "London", 
+                "Tokyo", 
+                "Paris", 
+                "Sydney"
+            ]
+        }
+    ],
+    "type": "line"
+}

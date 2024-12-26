@@ -1,0 +1,29 @@
+{
+    "title": "Global Smartphone Market Share (2022)",
+    "x_axis": "Companies",
+    "y_axis": "Market Share",
+    "models": [
+        {
+            "name": "Market Share",
+            "y": [
+                "30%", 
+                "25%", 
+                "15%", 
+                "10%", 
+                "10%", 
+                "5%", 
+                "5%"
+            ],
+            "x": [
+                "Samsung", 
+                "Apple", 
+                "Xiaomi", 
+                "Oppo", 
+                "Vivo", 
+                "Huawei", 
+                "Others"
+            ]
+        }
+    ],
+    "type": "h_bar"
+}

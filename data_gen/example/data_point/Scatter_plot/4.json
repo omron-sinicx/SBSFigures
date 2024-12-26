@@ -1,0 +1,46 @@
+{
+    "title": "Employee Satisfaction vs. Productivity",
+    "x_axis": "Employee Satisfaction",
+    "y_axis": "Productivity",
+    "models": [
+        {
+            "name": "Sales Department",
+            "y": [
+                "60", 
+                "65", 
+                "70", 
+                "75", 
+                "80", 
+                "85"
+            ],
+            "x": [
+                "5", 
+                "5.5", 
+                "6", 
+                "6.5", 
+                "7", 
+                "7.5"
+            ]
+        },
+        {
+            "name": "HR Department",
+            "y": [
+                "62", 
+                "67", 
+                "72", 
+                "77", 
+                "82", 
+                "87"
+            ],
+            "x": [
+                "5", 
+                "5.5", 
+                "6", 
+                "6.5", 
+                "7", 
+                "7.5"
+            ]
+        }
+    ],
+    "type": "dot_line"
+}

@@ -1,0 +1,53 @@
+{
+    "title": "Seasonal Sales Distribution (Percentage)",
+    "x_axis": "Season",
+    "y_axis": "Sales Distribution (%)",
+    "models": [
+        {
+            "name": "Electronics",
+            "y": [
+                "20%", 
+                "30%", 
+                "40%",
+                "10%"
+            ],
+            "x": [
+                "Spring", 
+                "Summer", 
+                "Autumn",
+                "Winter"
+            ]
+        },
+        {
+            "name": "Apparel",
+            "y": [
+                "15%", 
+                "25%", 
+                "35%",
+                "25%"
+            ],
+            "x": [
+                "Spring", 
+                "Summer", 
+                "Autumn",
+                "Winter"
+            ]
+        },
+        {
+            "name": "Home Goods",
+            "y": [
+                "10%", 
+                "20%", 
+                "30%",
+                "40%"
+            ],
+            "x": [
+                "Spring", 
+                "Summer", 
+                "Autumn",
+                "Winter"
+            ]
+        }
+    ],
+    "type": "h_stacked_bar"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Annual Sales Distribution by Toy Categories in Italy",
+    "x_axis": "Toy Categories",
+    "y_axis": "Sales (%)",
+    "models": [
+        {
+            "x": [
+                "Educational Toys", 
+                "Action Figures", 
+                "Board Games", 
+                "Stuffed Animals"
+            ],
+            "y": [
+                "40%",
+                "25%", 
+                "15%",
+                "10%"
+            ]
+        }
+    ],
+    "type": "v_bar"
+}

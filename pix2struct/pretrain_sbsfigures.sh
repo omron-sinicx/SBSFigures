@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python pretrain_sbsfigures.py \
+    --data-path  'omron-sinicx/sbsfigures'\
+    --max-epochs 3 \
+    --batch-size  5 \
+    --valid-batch-size 1 \
+    --num-workers 4\
+    --lr 1e-4 \
+    --gpus-num  8 \
+    --check-val-every-n-epoch 15 \
+    --warmup-steps 100 \
+    --checkpoint-epochs 1 \
+    --checkpoint-path "google/pix2struct-textcaps-base" \
+    --output-dir "output/pretrain/sbsfigures/pix2struct"  

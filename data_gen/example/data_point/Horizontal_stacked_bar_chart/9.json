@@ -1,0 +1,42 @@
+{
+    "title": "Energy Sources Mix by Country",
+    "x_axis": "Countries",
+    "y_axis": "Energy Production (TWh)",
+    "models": [
+        {
+            "name": "Fossil Fuels",
+            "y": [
+                "500", 
+                "400", 
+                "300", 
+                "450", 
+                "350"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China", 
+                "India", 
+                "Japan"
+            ]
+        },
+        {
+            "name": "Renewables",
+            "y": [
+                "200", 
+                "300", 
+                "400", 
+                "250",
+                "300"
+            ],
+            "x": [
+                "USA", 
+                "Germany", 
+                "China", 
+                "India", 
+                "Japan"
+            ]
+        }
+    ],
+    "type": "h_stacked_bar"
+}

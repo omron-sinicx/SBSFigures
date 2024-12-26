@@ -1,0 +1,46 @@
+{
+    "title": "Digital Advancement Comparison by Country",
+    "x_axis": "Countries",
+    "y_axis": "Advancement (%)",
+    "models": [
+        {
+            "name": "Developed Countries",
+            "y": [
+                "90", 
+                "85", 
+                "80", 
+                "75", 
+                "70", 
+                "80"
+            ],
+            "x": [
+                "USA",
+                "UK", 
+                "France", 
+                "Canada", 
+                "Australia", 
+                "Japan"
+            ]
+        },
+        {
+            "name": "Developing Countries",
+            "y": [
+                "60", 
+                "65", 
+                "70", 
+                "55", 
+                "50", 
+                "40"
+        ],
+            "x": [
+                "USA", 
+                "UK", 
+                "France", 
+                "Canada", 
+                "Australia", 
+                "Japan"
+            ]
+        }
+    ],
+    "type": "diverging_bar_chart"
+}

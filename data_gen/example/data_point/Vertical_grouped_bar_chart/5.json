@@ -1,0 +1,69 @@
+{
+    "title": "Quarterly Sales by Product Type",
+    "x_axis": "Quarters",
+    "y_axis": "Sales ($1000s)",
+    "models": [
+        {
+            "name": "Electronics",
+            "y": [
+                "200", 
+                "300", 
+                "250", 
+                "300"
+            ],
+            "x": [
+                "Q1", 
+                "Q2", 
+                "Q3", 
+                "Q4"
+            ]
+        },
+        {
+            "name": "Apparel",
+            "y": [
+                "150", 
+                "250", 
+                "200", 
+                "180"
+            ],
+            "x": [
+                "Q1", 
+                "Q2", 
+                "Q3", 
+                "Q4"
+            ]
+        },
+        {
+            "name": "Home Appliances",
+            "y": [
+                "100", 
+                "150", 
+                "130", 
+                "140"
+            ],
+            "x": [
+                "Q1", 
+                "Q2", 
+                "Q3", 
+                "Q4"
+            ]
+        },
+        {
+            "name": "Toys & Games",
+            "y": [
+                "90", 
+                "120", 
+                "110",
+                "100"
+            ],
+            "x": [
+                "Q1", 
+                "Q2", 
+                "Q3", 
+                "Q4"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}
+

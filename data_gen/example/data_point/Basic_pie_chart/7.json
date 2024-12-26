@@ -1,0 +1,18 @@
+{
+    "title":  "Transportation Methods Used by Asian Tourists in the USA Last Year",
+    "models": [
+        {
+            "name": "Car",
+            "value": "52"
+        },
+        {
+            "name": "Public Transit",
+            "value": "28"
+        },
+        {
+            "name": "Biking/Walking",
+            "value": "20"
+        }
+    ],
+    "type": "pie"
+}

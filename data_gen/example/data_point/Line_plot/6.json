@@ -1,0 +1,31 @@
+{
+    "title": "Annual Employee Satisfaction Rate",
+    "x_axis": "Years",
+    "y_axis": "Satisfaction Rate",
+    "models": [
+        {
+            "name": "Satisfaction Rate",
+            "y": [
+                "80%", 
+                "82%", 
+                "81%",
+                "83%", 
+                "84%", 
+                "83%",
+                "85%", 
+                "84%"
+            ],
+            "x": [
+                "2015", 
+                "2016", 
+                "2017", 
+                "2018", 
+                "2019", 
+                "2020", 
+                "2021", 
+                "2022"
+            ]
+        }
+    ],
+    "type": "line"
+}

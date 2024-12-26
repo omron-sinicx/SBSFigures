@@ -1,0 +1,47 @@
+{
+    "title": "Employee Efficiency by Task Type",
+    "x_axis": "Employees",
+    "y_axis": "Tasks Completed",
+    "models": [
+        {
+            "name": "Administrative Tasks",
+            "y": [
+                "80", 
+                "90", 
+                "85"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie"
+            ]
+        },
+        {
+            "name": "Documentation",
+            "y": [
+                "100", 
+                "95", 
+                "105"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie"
+            ]
+        },
+        {
+            "name": "Project Management",
+            "y": [
+                "95", 
+                "85", 
+                "90"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie"
+            ]
+        }
+    ],
+    "type": "v_grouped_bar"
+}

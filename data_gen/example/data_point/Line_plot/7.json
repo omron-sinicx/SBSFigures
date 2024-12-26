@@ -1,0 +1,27 @@
+{
+    "title": "Annual Visitor Count Fluctuations at a Historical Museum in China",
+    "x_axis": "Years",
+    "y_axis": "Number of Visitors",
+    "models": [
+        {
+            "name": "Number of Visitors",
+            "y": [
+                "500",
+                "450",
+                "500",
+                "550",
+                "520",
+                "540"
+            ],
+            "x": [
+                "1998",
+                "1999",
+                "2000",
+                "2001",
+                "2002",
+                "2023"
+            ]
+        }
+    ],
+    "type": "line"
+}

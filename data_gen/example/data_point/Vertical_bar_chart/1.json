@@ -1,0 +1,26 @@
+{
+    "title": "Monthly Internet Usage Among High School Students in the UK",
+    "y_axis": "Data Usage in GB",
+    "x_axis": "Months",
+    "models": [
+        {
+            "x": [
+                "January", 
+                "February", 
+                "March", 
+                "April", 
+                "May", 
+                "June"
+            ],
+             "y": [
+                "120",
+                "110",
+                "140",
+                "130",
+                "150",
+                "160"
+            ]
+        }
+    ],
+    "type": "v_bar"
+}

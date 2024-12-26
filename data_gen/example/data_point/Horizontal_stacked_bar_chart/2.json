@@ -1,0 +1,53 @@
+{
+    "title":  "Daily Time Spent on Various Activities",
+    "x_axis": "Individuals",
+    "y_axis": "Hours",
+    "models": [
+        {
+            "name": "Sleeping",
+            "y": [
+                "8",
+                "7",
+                "6",
+                "9"
+            ],
+            "x": [
+                "Alice",
+                "Bob", 
+                "Charlie",
+                "Daniel"
+            ]
+        },
+        {
+            "name":"Working",
+            "y": [
+                "8",
+                "9",
+                "8",
+                "7"
+            ],
+            "x": [
+                "Alice",
+                "Bob", 
+                "Charlie",
+                "Daniel"
+            ]
+        },
+        {
+            "name": "Others",
+            "y": [
+                "4",
+                "3",
+                "4",
+                "5"
+            ],
+            "x": [
+                "Alice",
+                "Bob", 
+                "Charlie",
+                "Daniel"
+            ]
+        }
+    ],
+    "type": "h_stacked_bar"
+}

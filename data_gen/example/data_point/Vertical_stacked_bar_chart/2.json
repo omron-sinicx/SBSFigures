@@ -1,0 +1,53 @@
+{
+    "title": "Student Performance in Different Subjects" ,
+    "x_axis": "Students",
+    "y_axis":  "Scores",
+    "models": [
+        {
+            "name": "Math",
+            "y": [
+                "80",
+                "85",
+                "78",
+                "75"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie",
+                "Dan"
+            ]
+        },
+        {
+            "name": "Science",
+            "y": [
+                "90",
+                "85",
+                "88",
+                "100"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie",
+                "Dan"
+            ]
+        },
+        {
+            "name": "History",
+            "y": [
+                "95",
+                "90",
+                "85",
+                "89"
+            ],
+            "x": [
+                "Alice", 
+                "Bob", 
+                "Charlie",
+                "Dan"
+            ]
+        }
+    ],
+    "type": "v_stacked_bar"
+}
