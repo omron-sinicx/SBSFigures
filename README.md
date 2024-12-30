@@ -7,31 +7,31 @@ The official PyTorch implementation for the following paper:
 > [Risa Shionoda](https://sites.google.com/view/risashinoda/home), [Kuniaki Saito](https://ksaito-ut.github.io/),[Shohei Tanaka](https://shohei-ta-ds7.github.io/),[Tosho Hirasawa](https://toshohirasawa.github.io/),[Yoshitaka Ushiku](https://yoshitakaushiku.net/index.html)    
 > *The AAAI-25 Workshop on Document Understanding and Intelligence*
 
-## TL;DR: Introducing the SBSFigures generation pipeline—effortlessly create figures with diverse topics, varied appearances, and precise QAs using a single bash script.
+### TL;DR: Introducing the SBSFigures generation pipeline—effortlessly create figures with diverse topics, varied appearances, and precise QAs using a single bash script.
 
 ## Dataset
-You can download our SBS Figures dataset (1M figures, 4.2M QA pairs) from Hugging Face: [Stay tuned for a couple of days!]
+You can download our SBS Figures dataset (1M figures, 4.2M QA pairs) from Hugging Face: [Hugging Face Dataset](https://huggingface.co/datasets/omron-sinicx/sbsfigures)
 
-## Dataset Generation Pipline
-You can also create SBSFigures with our generation pipline.
+## Dataset Generation Pipeline
+You can also create SBSFigures using our generation pipeline.
 
-The generation pipline consists from following oython scripts.
-1. data_topic.py : create figure topic
-2. json_make.py :  create json files represent data point
-3. add_color.py : add color information to the json files
-4. create_chart.py : create chart png files 
-5. qa.py : create qa pairs using data points
+The generation pipeline consists of the following Python scripts.
+1. data_topic.py : Create figure topic
+2. json_make.py:  Create JSON files representing data point
+3. add_color.py: Add color information to the JSON files
+4. create_chart.py: Create chart png files 
+5. qa.py: Create qa pairs using data points
 
 You can create SBSFigures by GPT with the following command:
 ```
 cd data_gen/gpt
 bash crete_sbsfigures.sh
 ```
-You have to modify config.yaml and write your openai api key.
-Be careful, this GPT-based generation cost money, and try the lower nuber of Figures. (Initially, we set 15 figures generation attempt per figure type.)
+You have to modify config.yaml and write your openai API key.
+Be careful, this GPT-based generation cost money, and try the lower nuber of Figures. (Initially, we set 15 figures generation attempts per figure type.)
 
 ## Model
-We release four models through hugging face.
+We release four models through Hugging Face.
 
 | Task  | Model | Checkpoint Path |
 | ------| ------- | ------------- |
