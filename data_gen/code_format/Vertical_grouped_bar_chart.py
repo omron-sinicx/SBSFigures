@@ -40,7 +40,13 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
 
     legend_option = True
     title_loc_option = random.choice(['left', 'center', 'right'])
-    legend_loc_option = random.choice([('upper left', (1, 0.9)), ('lower right', (1, 0)), ('upper right', (1, 1)), ('lower left', (0, 0)), ('upper center', (0.5, 1))])
+    legend_loc_option = random.choice([
+        ('upper left', (1, 0.9)),
+        ('lower right', (1, 0)),
+        ('upper right', (1, 1)),
+        ('lower left', (0, 0)),
+        ('upper center', (0.5, 1))
+    ])
     marker_style = random.choice(['o', 's', 'D', 'v', '<', '>', 'p', 'h', 'H'])
     spine_option = random.choice(['visible', 'light', 'transparent'])
 
@@ -48,7 +54,7 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
 
     categories = data['models'][0]['x']
     x = np.arange(len(categories))
-    width = 0.8 / num_groups
+    width = 0.8 / num_groups  
 
     fig, ax = plt.subplots()
     legend_elements = []
@@ -73,12 +79,12 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
         color = model['colors'][0]
         bars = ax.bar(x + i * width, y, width, label=model['name'], color=color)
 
-        if model['name'] not in legend_elements:
+        if model['name'] not in [element.get_label() for element in legend_elements]:
             legend_elements.append(Line2D([0], [0], marker=marker_style, color='w', label=model['name'],
                                           markerfacecolor=color, markersize=10, linestyle='None'))
 
         if values_option:
-            for bar in bars:
+            for bar, unit in zip(bars, units):
                 height = bar.get_height()
                 if height.is_integer():
                     text_format = f"{height:.0f}"
@@ -87,13 +93,15 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
 
                 text = text_format + unit if unit.strip() else text_format
                 if values_option == 'inside' and height > max(y) * 0.05:
-                    ax.text(bar.get_x() + bar.get_width() / 2, height - max(y) * 0.03, text, ha='center', va='top', fontsize=font_size, fontname=font_name, color='white')
+                    ax.text(bar.get_x() + bar.get_width() / 2, height - max(y) * 0.03, text, ha='center', va='top',
+                            fontsize=font_size, fontname=font_name, color='white')
                 elif values_option == 'outside':
-                    ax.text(bar.get_x() + bar.get_width() / 2, height + max(y) * 0.01, text, ha='center', va='bottom', fontsize=font_size, fontname=font_name)
+                    ax.text(bar.get_x() + bar.get_width() / 2, height + max(y) * 0.01, text, ha='center', va='bottom',
+                            fontsize=font_size, fontname=font_name)
 
-    ax.set_xlabel(data['x_axis'], fontsize=font_size, fontname=font_name)
-    ax.set_xticks(x + width / num_groups)
-    ax.set_xticklabels(categories)
+    group_center = x + (width * num_groups) / 2 - width / 2
+    ax.set_xticks(group_center)
+    ax.set_xticklabels(categories, fontsize=font_size, fontname=font_name)
 
     if axes_option:
         ax.set_ylabel(data['y_axis'], fontsize=font_size, fontname=font_name)
@@ -107,7 +115,8 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
         ncol = random.choice([1, 2, 3])
         shadow = random.choice([True, False])
         frameon = random.choice([True, False])
-        ax.legend(handles=legend_elements, loc=legend_loc_option[0], ncol=ncol, shadow=shadow, frameon=frameon, fancybox=True, framealpha=0.7, bbox_to_anchor=legend_loc_option[1])
+        ax.legend(handles=legend_elements, loc=legend_loc_option[0], ncol=ncol, shadow=shadow, frameon=frameon,
+                  fancybox=True, framealpha=0.7, bbox_to_anchor=legend_loc_option[1])
 
     if spine_option == 'light':
         for spine in ax.spines:
