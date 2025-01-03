@@ -76,14 +76,14 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
             return
 
         color = model['colors'][0]
-        bars = ax.barh(y - (height * num_groups / 2) + i * height, x, height, label=model['name'], color=color)
+        bars = ax.barh(y - height * (num_groups - 1) / 2 + i * height, x, height, label=model['name'], color=color)
 
-        if model['name'] not in legend_elements:
+        if model['name'] not in [element.get_label() for element in legend_elements]:
             legend_elements.append(Line2D([0], [0], marker=marker_style, color='w', label=model['name'],
                                           markerfacecolor=color, markersize=10, linestyle='None'))
 
         if values_option:
-            for bar in bars:
+            for bar, unit in zip(bars, units):
                 width = bar.get_width()
                 if width.is_integer():
                     text_format = f"{width:.0f}"
@@ -96,6 +96,10 @@ def plot_chart(json_input, save_path, json_save_path, font_name='Arial', font_si
                 elif values_option == 'outside':
                     ax.text(width + max(x) * 0.01, bar.get_y() + bar.get_height() / 2, text, ha='left', va='center', fontsize=font_size, fontname=font_name)
 
+    # 修正前のy-ticks設定
+    # ax.set_yticks(y + height * (num_groups -3) / 2)
+    
+    # 修正後のy-ticks設定（グループの中央に設定）
     ax.set_yticks(y)
     ax.set_yticklabels(categories, fontsize=font_size, fontname=font_name)
 
