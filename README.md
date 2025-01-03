@@ -75,9 +75,22 @@ bash finetune_chartqa.sh
 ```
 For the fine-tuning, we borrow some code from [UniChart](https://github.com/vis-nlp/UniChart).
 
+## Test Code
+Donut : 
+```
+cd donut
+bash test_chartqa.sh
+```
+Pix2Struct : 
+```
+cd pix2struct
+bash test_chartqa.sh
+```
+This creates two text files that compare the ground truth with the output results and calculates the 5% relaxed accuracy.
+
 ## Tips
 - **Customize fonts**:  
-  Edit `data_gen/fpt/font.txt` to add or remove fonts based on your environment for chart creation.
+  Edit `data_gen/gpt/font.txt` to add or remove fonts based on your environment for chart creation.
 
 - **Create domain-specific figures**:  
   Modify the prompt in `data_gen/gpt/data_topic.py` to generate figures tailored to a specific domain.
