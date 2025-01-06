@@ -3,7 +3,7 @@
 <a href='https://omron-sinicx.github.io/SBSFiguresPage/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; 
 
 The official PyTorch implementation for the following paper:
-> [**SBS Figures: Pre-training Figure QA from Stage-by-Stage Synthesized Images**](https://arxiv.org/abs/2407.13555),  
+> [**SBS Figures: Pre-training Figure QA from Stage-by-Stage Synthesized Images**](https://arxiv.org/abs/2412.17606),  
 > [Risa Shionoda](https://sites.google.com/view/risashinoda/home), [Kuniaki Saito](https://ksaito-ut.github.io/),[Shohei Tanaka](https://shohei-ta-ds7.github.io/),[Tosho Hirasawa](https://toshohirasawa.github.io/),[Yoshitaka Ushiku](https://yoshitakaushiku.net/index.html)    
 > *The AAAI-25 Workshop on Document Understanding and Intelligence*
 
